@@ -17,7 +17,7 @@ Boot the phone normally.
 
 Go to Settings > System > About Phone
 
-Scroll down to Build Number and tap it at least 7 times (until it says "You are now a developer!")
+Scroll down to Build Number and tap it until you are satisfied or at least 7 times (until it says "You are now a developer!")
 
 Now go to Settings > System > Developer Options
 
