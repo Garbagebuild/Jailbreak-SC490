@@ -3,8 +3,8 @@ SC490 phone (unlocked bootloader)
 
 A PC with ADB & Fastboot, or WebADB
 
-system.img ready to flash (one that includes useful apps like Chess & a Web Browser)
-
+system.img ready to flash (includes apps > Chess & a Web Browser) https://drive.google.com/file/d/1EYa8X401p5NOE4jUnKPhjEA1KbM5LoTn/view
+NOTE: if this bricks your phone the stock system.img is here https://github.com/Garbagebuild/SC490-Jethro-Firmware along with all other partitions.
 Macrodroid pre-installed in the image
 
 Optional: External keyboard for easier navigation
