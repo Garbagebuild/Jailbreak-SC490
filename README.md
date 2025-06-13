@@ -1,3 +1,5 @@
+If your looking for temporary root on this phone go to https://github.com/Garbagebuild/TWRP-for-Jethro
+
 🔧 Requirements
 SC490 phone (unlocked bootloader)
 
