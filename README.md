@@ -14,7 +14,6 @@ NOTE: if this bricks your phone the stock system.img is here https://github.com/
 
 
 
-Macrodroid pre-installed in the image
 
 
 🛠️ Instructions
