@@ -10,6 +10,10 @@ system.img ready to flash (includes apps > Chess & a Web Browser) https://drive.
 
 
 NOTE: if this bricks your phone the stock system.img is here https://github.com/Garbagebuild/SC490-Jethro-Firmware along with all other partitions.
+
+
+
+
 Macrodroid pre-installed in the image
 
 
