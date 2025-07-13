@@ -96,7 +96,7 @@ Tap the settings gear icon in the top-right using the mouse pointer — this wil
 🔜 Coming Soon
 A tutorial on how to add your own apps into the system.img
 
-A list of compatible apps that work on this phone
+PIxel dungeon ligthing browser, chess apps, octopus, magisk (doesnt work as system app), f-droid.  Works on this phone.
 
 🕹️ If anyone finds a working GBA Emulator apk that is compatible with this phone, I will give you a big wet kiss.
 
