@@ -95,8 +95,44 @@ Tap the settings gear icon in the top-right using the mouse pointer — this wil
 
 🔜 Coming Soon
 A tutorial on how to add your own apps into the system.img
+--------------------------------------------------------
+Most apps that don’t require Google Play Services will run fine on this phone.
+However, if an app contains native `.so` library files, those libraries must be placed in:
 
-PIxel dungeon ligthing browser, chess apps, octopus, magisk (doesnt work as system app), f-droid.  Works on this phone.
+/system/app/MyApp/lib/arm/*.so
 
-🕹️ If anyone finds a working GBA Emulator apk that is compatible with this phone, I will give you a big wet kiss.
+Doing this manually can be tedious — that’s why there’s now a tool to automate it.
+
+If install2.0.bat causes problems (for example, it stops after extracting the libraries), use install.bat instead.
+install.bat requires you to tell it which CPU architecture your APK uses.
+
+How to Find Your APK’s Library Architecture:
+1. Make sure 7-Zip is installed (required for the script to work).
+2. Right-click your APK file and open it with 7-Zip (or any zip extractor).
+3. Open the `lib` folder inside the APK.
+4. You should see a folder named either:
+   - armeabi
+   - armeabi-v7a
+5. Note which one exists — this is your architecture.
+
+Editing the Script for the Correct Architecture:
+1. Right-click on install.bat and choose Edit (Notepad will open).
+2. In Notepad, go to the Edit menu and click Find.
+3. Search for: armeabi-v7a
+4. If your APK has only armeabi (and does not have armeabi-v7a),
+   replace all instances of armeabi-v7a with armeabi
+5. Save the file and close Notepad.
+
+Installing the App:
+1. Connect your phone via USB with USB Debugging enabled.
+2. Run install.bat.
+3. Enter the full path to your APK when prompted.
+4. The script will:
+   - Push the APK into /system/app/<YourAppName>/
+   - Extract and place the `.so` libraries into /system/app/<YourAppName>/lib/arm/
+5. Reboot your device to apply the changes.
+
+Note: This process requires root access and a writable /system partition.
+If /system is read-only, remount it as read/write or use Magisk to create a systemless install.
+
 
